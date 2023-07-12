@@ -1,0 +1,51 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .btn-primary {
+    background-color: #2F4FCD;
+    border-color: #2F4FCD;
+  }
+
+  .form-pa-reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .link-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .link-container a {
+    text-decoration: none;
+    color: #5F7ED9;
+    transition: color 0.3s, text-decoration 0.3s;
+  }
+  
+  .link-container a:hover {
+    text-decoration: none;
+    color: #5F7ED9;
+  }
+  
+  .vertical-line {
+    width: 1px;
+    height: 12px;
+    background-color: #cccccc;
+    margin: 0 10px;
+  }

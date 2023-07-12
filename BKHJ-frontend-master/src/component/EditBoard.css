@@ -1,0 +1,16 @@
+.EditBoard-wrapper {
+    display: flex;
+    margin: 0 auto;
+    padding: 40px;
+  }
+
+.col-md-10{
+    margin: 0 auto;
+    align-content: center;
+  }
+
+  .card {
+    margin-top: 20px;
+    border-radius: 10px; 
+    background-color: #ffffff; 
+  }  

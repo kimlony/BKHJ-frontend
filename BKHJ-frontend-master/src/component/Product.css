@@ -1,0 +1,115 @@
+.product-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+}
+
+
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .product-details {
+    margin-top: 10px;
+  }
+  
+  .product-details p {
+    margin-bottom: 5px;
+  }
+  
+  .product-details button {
+    background-color: #5DA9F0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .product-details button:hover {
+    background-color: #5F7ED9;
+  }
+
+  .clear {
+    clear: both;
+  }
+  @media (max-width: 768px) {
+    .product-item {
+      width: 100%;
+      float: none;
+    }
+  }
+  
+  .pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    clear: both;
+    margin-top: 20px;
+  }
+
+  .LoanProduct-wrapper {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 60px;
+    margin: 0 auto; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+  }
+
+  .renderLoanProduct-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .search-input {
+    width: 70%; 
+    margin-right: 25px;   
+  }
+  
+  @media (max-width: 768px) {
+    .search-input {
+      width: 100%; 
+    }
+  }
+
+  .renderLoanProduct-wrapper{
+    margin-top: 20px;
+  }
+
+  .filter-container {
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    /* 추가 스타일 */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .filter-container-wrapper{
+    margin-top: 30px;
+  }
+
+.Product{
+  background-color: #F8F8FA;
+  padding: 25px;
+}
+
+.footerbutton{
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}

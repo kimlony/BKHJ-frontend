@@ -1,0 +1,200 @@
+.ViewBoard-wrapper{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.comment-buttons {
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+.comment-buttons button {
+  border-radius: 30px;
+  padding: auto;
+  width: 70px;
+  height: 40px;
+}
+
+.cancel-button {
+  margin-left: auto;
+  background-color: transparent;
+  color: black;
+  transition: background-color 0.3s;
+  border: none;
+  outline: none;
+}
+
+.cancel-button:hover {
+  background-color: #ccc;
+  color: black;
+  border: none;
+  outline: none;
+}
+
+.cancel-button:disabled {
+  background-color: #fff !important;
+  color: #000 !important;
+  cursor: not-allowed;
+}
+
+.cancel-button[data-cancelled="true"] {
+  background-color: #fff !important;
+  color: #000 !important;
+  cursor: not-allowed;
+}
+
+.commentcount {
+  padding-left: 22px;
+  padding-top: 10px;
+}
+
+
+.ViewComment {
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.ViewCommentList-container {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
+}
+
+.ViewCommentList {
+  display: flex;
+  flex-direction: column;
+}
+
+.ViewCommentList > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ViewCommentList > div > .user-info {
+  display: flex;
+  align-items: center;
+}
+
+.ViewCommentList > div > .user-info > .btn {
+  margin-left: 8px;
+}
+
+.ViewCommentList > div > .actions {
+  align-self: flex-end;
+  margin-top: 8px;
+}
+
+.ViewCommentList > div > .comment-content > p {
+  color: #999;
+  font-size: 14px;
+}
+.comment-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 45px;
+  margin-right: 45px;
+  width: 100%;
+}
+.ViewCommentList > div:not(:last-child) {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.btn-comment {
+  border-radius: 20px;
+  padding: 5px 15px;
+  margin-right: 8px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+
+.btn-comment.btn-primary {
+  background-color: white;
+  color: black
+}
+
+.btn-comment.btn-primary:hover {
+  background-color: #ccc;
+}
+
+.btn-comment.btn-danger {
+  background-color: #eb4556;
+  color: #fff;
+}
+
+.btn-comment.btn-danger:hover {
+  background-color: #db071c;
+}
+
+
+.card{
+  border-radius: 10px;
+  background-color: #ffffff; 
+}
+
+.comment-input-container{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.comment-divider {
+  width: 95%;
+  margin-left: 22px;
+  margin-right: 22px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.ContentHeader {
+  padding: 10px;
+  margin-top: 5%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.ContentHeader h4 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.ContentHeader p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.ViewContent{
+  margin: 10px;
+}
+.edit-comment {
+  height: 100px;
+  width: 80%; 
+}
+.attachment{
+  margin-left: 4%;
+  margin-right: 4%;
+}

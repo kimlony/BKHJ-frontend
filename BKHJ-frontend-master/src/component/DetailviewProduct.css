@@ -1,0 +1,17 @@
+.detail-view {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .detail-view p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .detail-view a {
+    color: #5F7ED9;
+    text-decoration: none;
+  }
